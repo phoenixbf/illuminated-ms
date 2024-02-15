@@ -1,0 +1,95 @@
+{
+    "bgcolor" : [0.19, 0.19, 0.19],
+    "lightcolor": [1,1,1],
+
+    "categories":[
+        {"name":"Iconologia e Iconografia"},
+        {"name":"Struttura"},
+        {"name":"Conservazione e Restauro"},
+        {"name":"Testo e Scrittura"},
+        {"name":"Materiali e Tecniche"},
+        {"name":"Censure"},
+        {"name":"Notazioni Musicali"}
+    ],
+    
+    "volumes":{
+        "0000042948":{
+            "title": "Libro d'Ore Ms. 459",
+            "poses":[
+                {
+                    "title": "Chiusa",
+                    "descr": "Il manoscritto presenta una legatura settecentesca in pergamena semifloscia, di probabile fattura fiamminga, con placche decorate in oro. Entrambi i piatti sono arricchiti da una cornice esterna rettangolare ornata con motivi a girali, una cornice interna a losanga al centro del quale vi è una placca con la scena della Crocifissione di Cristo tra la Vergine e San Giovanni; dorso liscio su cinque nervi."
+                },
+                {
+                    "title": "cc. 21v-22r",
+                    "descr": "Le due carte del manoscritto introducono e aprono l'Officio dedicato alla Vergine, la sezione che, nel rispetto della tradizione figurativa dei Libri d'ore, si distingue per una particolare ricchezza ornamentale. Le miniature contenute nelle due carte mostrano delle difformità stilistico formali dovute alla partecipazione di più miniatori parigini. Nella scena sulla sinistra, assegnata al maestro di Luçon, vediamo la Vergine con Bambino e i probabili committenti del volume in preghiera, ai suoi piedi. L'illustrazione è dipinta su un foglio sciolto inserito tra due quaternioni, ritenuto contestuale al resto del volume, che introduce l'Officio della Vergine della sontuosa carta affrontata. Sottili tralci con foglie perlopiù spinose, arricchiti da figure zoomorfe, antropomorfe e fantastiche, occupano interamente i margini di questo foglio, germogliando da una splendida cornice. Il largo impiego della foglia d'oro accentua la preziosità degli ornati. La scena dell'Annunciazione sarebbe da ricondurre a uno dei due esponenti della cosiddetta Bedford Trend."
+                },
+                {
+                    "title": "cc. 67v-68r",
+                    "descr":"Le due carte contengono delle preghiere dedicate alla Vergine corredate da una ricca ed elegante ornamentazione. Tralci sottili incorniciano i testi, iniziali ornate e campite ne segnano alcuni passaggi. La scena principale illustra  l'annuncio dell'angelo ai pastori dell'avvenuta nascita di Gesù. La scena introduce un inno di supplica."
+                }
+            ]
+        },
+
+        "0000102297":{
+            "layers":[
+                {
+                    "id":0,
+                    "name":"layer_rgb",
+                    "title":"Layer RGB",
+                    "default":true
+                },
+                {
+                    "id":1,
+                    "name":"layer_ir1",
+                    "title":"Layer IR1",
+                    "depth":0.0
+            
+                },
+                {
+                    "id":2,
+                    "name":"layer_ir2",
+                    "title":"Layer IR2",
+                    "depth":0.5
+            
+                },
+                {
+                    "id":3,
+                    "name":"layer_ir3",
+                    "title":"Layer IR3",
+                    "depth":1.0
+            
+                }
+            
+            ],
+            "title": "De Balneis Puteolanis Ms. 1474",
+            "poses":[
+                {
+                    "title": "cc. 9v-10r",
+                    "descr": "La miniatura a piena pagina del Balneum Tripergula è oggi affrontata ai versi dedicati al Balneum de Prato per la perdita del relativo epigramma e l'alterazione dell'originale sequenza fascicolare del manoscritto. Il Bagno Tripergule era situato presso il lago Averno ed è stato distrutto dall'eruzione del 1538. Secondo la leggenda, narrata da Virgilio nel III libro dell'Eneide  e da altri autori dell'antichità, nel lago Averno si apriva la porta degli Inferi. Nel registro inferiore vediamo il Redentore sui battenti scardinati della porta infernale, per trarre in salvo i morti. Nel registro superiore vediamo lo stabilimento termale scandito in due ambienti. Sulla sinistra vi è il vestiario dove un uomo è colto nell'atto di sfilarsi la tunica, per poi immergersi nel bagno.  La scena fonde le formule iconografiche del Battesimo di Cristo e del Battesimo dei neofiti. A queste rimandano la rappresentazione dei catecumeni tenuti ad immergersi totalmente o parzialmente secondo i rituali del tempo, Anche la figura del paziente che si sveste ha un riferimento biblico,  e un parallelismo ad esempio nella scena dell'Ingresso di Gesù a Gerusalemme dei mosaici della Cappella palatina di Palermo."
+                },
+                {
+                    "title": "cc. 12v-13r",
+                    "descr": "Le due carte del manoscritto contengono l'epigramma dedicato al Balneum de Ferris e la sua trasposizione figurata. La struttura termale sorgeva nei pressi del Tempio di Apollo, lungo le rive del lago d'Averno. Il programma iconografico prevede per tutte le miniature uno sviluppo su due registri, uno riservato ai bagnanti e uno ad una scena accessoria. Nella parte alta del riquadro vediamo il tempio di Apollo ormai in rovina mentre, nel registro inferiore, vi sono i bagnanti immersi in una vasca a pianta poligonale. Il miniatore raffigura i bagnanti che, immersi dalla cintola in giù in una vasca, gesticolano, volgono lo sguardo in diverse direzioni, in uno spazio quasi soffocato dai loro corpi nudi segnati in modo marcato da spessi tratti scuri tracciati per definire le linee del ventre, degli arti, del costato, dei volti, in fisionomie, movenze e pose replicate. Sulla sinistra della scena scorrono le acque segnate da onde tra le quali si intravedono dei pesci."
+                },
+                {
+                    "title": "cc. 19v-20r",
+                    "descr": "Il componimento finale di c. 19v contiene i versi di Dedica da parte di Pietro da Eboli, autore del poema,  a Federico II, secondo l'opinione prevalente della critica. Ma questo esemplare non è l'originale, che si è perso. Ma è la copia più antica che si conosca, commissionata forse, alla metà del 1200, da Manfredi, figlio illegittimo di Federico II e ultimo sovrano svevo dell'Italia meridionale. Manfredi  visse fin dall'infanzia a corte e come il padre fu appassionato di scienza e filosofia, diede impulso alla produzione di manoscritti miniati alla copia e alla riedizione di opere di carattere scientifico, alle traduzioni di trattati scientifici dal greco, dall'arabo, dall'ebraico."
+                }
+            ]
+        },
+        "0000102213":{
+            "title": "Divina Commedia Ms. 1102",
+            "poses":[
+                {
+                    "title": "cc. 4v-5r",
+                    "descr": "Le due carte del manoscritto contengono i versi finali del IV canto dell'Inferno e parte del canto successivo dedicato ai lussuriosi e all'incontro di Dante e Virgilio con Paolo e Francesca, introdotto da una miniatura tabellare. Il racconto figurato del viaggio dantesco mostra sulla sinistra Minosse, guardiano del II Cerchio, la cui figura è stata verosimilmente erasa in modo intenzionale, accanto al quale compare un essere demoniaco alato che getta tra le fiamme uno dei dannati. Sul lato opposto riconosciamo Dante e Virgilio che si rivolgono ai peccatori librati nell'aria segnata da scie luminose a rievocare la tempesta di vento che percuoteva i loro corpi. Tra i lussuriosi si riconoscono Paolo e Francesca, il cui nome è chiaramente leggibile."
+                },
+                {
+                    "title": "cc. 55v-56r",
+                    "descr": "Le due carte del manoscritto contengono i versi finali del XXVIII canto del Purgatorio e parte delle terzine del canto successivo che si sarebbe aperto con una miniatura tabellare, nel rispetto del programma iconografico, se l’esecuzione del corredo illustrativo non si fosse interrotta per motivi a noi ignoti. Uno spazio bianco, seguito dalla rubrica introduttiva del XXIX canto, è quanto resta del ricco progetto decorativo originario. Non sappiamo quali episodi il miniatore avrebbe tradotto in immagini e quale sarebbe stato il livello di fedeltà ai versi danteschi del racconto figurato. La scena avrebbe fissato in immagine alcuni passaggi del Canto XXIX, dove Matelda e Dante risalgono lentamente le sponde del fiume Lete, mentre un improvviso fulgore e una dolcissima melodia preannunciano una processione simbolica dal forte accento mistico, alla quale anche Virgilio assiste con stupore."
+                }
+            ]
+        }
+    }
+}

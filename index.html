@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"
+    />
+    <link rel="icon" href="appicon.png" sizes="512x512" type="image/png" />
+
+    <!-- Add iOS meta tags and icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="Codex4D" />
+    <link rel="apple-touch-icon" href="appicon.png" />
+
+    <!-- OpenGraph tags -->
+    <meta property="og:title" content="Codex4D" />
+    <meta property="og:description" content="Codex4D App" />
+    <meta property="og:image" content="appicon.png" />
+    <meta property="og:image:secure_url" content="appicon.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="app.webmanifest" />
+
+    <meta name="title" content="Codex4D" />
+    <meta name="description" content="Codex4D App" />
+
+    <!-- Add meta theme-color -->
+    <meta name="theme-color" content="#000000" />
+
+    <title>Codex 4D</title>
+    <link rel="stylesheet" type="text/css" href="res/app.css" />
+    <link rel="stylesheet" type="text/css" href="/res/css/aton.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <!-- Vendors -->
+    <script type="text/javascript" src="/vendors/vendors.min.js"></script>
+    <script type="text/javascript" src="/dist/THREE.bundle.js"></script>
+
+    <!--
+    <script type="text/javascript" src="vendors/handtrack.min.js"></script>
+
+    <script type="text/javascript" src="vendors/public-google-sheets-parser.js"></script>
+-->
+    <!--
+    <script type="text/javascript" src="/dist/ATON.min.js"></script>
+-->
+    <script type="module" src="/src/ATON.js"></script>
+
+    <!-- Main js entry -->
+    <script type="module" src="js/main.js"></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Inter&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+  </head>
+
+  <body oncontextmenu="return false;">
+
+    <!--Login-->
+    
+
+    <!--Note Filter-->
+    
+
+    <!-- Left Toolbar -->
+    
+    <div id="idLeftToolbar" class="leftToolbar toHideFromCommand"></div>
+   
+   
+    
+
+    <!--Bottom Toolbar-->
+    <div id="idCollapsible" class="collapsible toHideFromCommand">
+      <img id="idArrow" src='assets/icons/arrow-up.png' alt="up-arrow" />
+    </div>
+    <div id="idBottomToolbar" class="bottomToolbar"></div>
+    <div id="idLeftToolbarMobile" class="leftToolbarMobile toHideFromCommand"></div>
+    <div class="topBar toHideFromCommand">
+      
+      <div class="titleContainer">
+        <div id="idVolume" class="titleText">Volume</div>  
+        <div id="idPose" class="subtitleText">Pose</div>
+        <div class="underTitle">
+          <a class=linkToWeb href='https://codex4d.it/' target="_blank"><img class='codexLogo' src='assets/logo.png' /></a>
+          <a class="backTo"><img id="idManuscriptDetail" class="goToIMG" src="assets/icons/Icona_scheda_Aton_OFF.png" /></a>
+        </div>
+        <br />
+        
+      </div>
+      
+  
+      <!--Logout-->
+      <!--<button id="idLogout" class= "logoutButton"><p class="logoutText">Logout</p></button>-->
+
+    </div>
+    <div id='idLogin' class='login toHideFromCommand'>
+      <img id='idLoginAction' class='loginIcon' src='assets/icons/icon_login.png' />
+      <p id='idLoginActionText' class='loginText'>Login</p>
+    </div>
+   
+    
+    <div class="total">
+      <div id='idForm' class='annotationForm' style="display: none"></div>
+      <div id='idUpdateAnn' class="annotationForm" style="display: none;"></div> 
+      <div class="helperPopup annotationForm"></div>
+      <div class='sliderBack'>
+      
+        
+      </div>
+      <div class="fullScreenImage hide"></div>
+    </div>
+      
+       <!--<hr class="xAxis"  />
+      <hr class="yAxis" />-->
+
+   
+    
+    
+    
+    
+
+    <!-- Main Popup -->
+    <div id="idPopup" class="atonPopupContainer" style="display: none">
+      
+    </div> 
+    
+    
+    <!-- Info Panel -->
+    <div
+      id="idPanel"
+      class="atonSidePanelContainer toHideFromCommand"
+      style="display: none; z-index: 130"
+    ></div>
+
+    <!-- Loader -->
+    <div id="idLoader" class="atonCenterLoader" style="display: none"></div>
+
+    <!--Dropdown-->
+    <!-- <div id="selectAnnType" class="sidebar left" style="display: none">
+      <ul style='list-style-type: none;'>
+        <li><button id='sphere' class='toolbarButton' type='button'><img id='idTurnSphere' class='toolbarIcon' src='assets/icons/cerchio_annotazione_OFF.png'></button></li>
+        <li><button id='free' class='toolbarButton'><img id='idTurnAreal' class='toolbarIcon' src='assets/icons/Aton_areale_OFF.png'/></button></li>
+      </ul>
+    </div> -->
+
+    <div id="idPoweredBy" class="poweredBy">Powered by <a href="http://osiris.itabc.cnr.it/aton/" target="_blank">ATON</a></div>
+
+  </body>
+</html>
